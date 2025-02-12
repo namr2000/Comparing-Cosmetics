@@ -1,1 +1,7 @@
 # Comparing-Cosmetics
+
+In the realm of cosmetic products, understanding ingredient effects on different skin types poses a challenge for consumers. To address this, I propose a comprehensive solution through a content-based recommendation system. This project comprises two main components: t-SNE Plot Generation and Machine Learning Model Development. The former creates t-SNE plots to visualize product similarities, aiding consumers in discovering alternatives to their current products. The latter involves building a machine learning model to predict product suitability for various skin types, leveraging factors such as price, rating, label, brand, and ingredients. 
+
+Materials utilized include libraries for data manipulation, visualization, and machine learning, alongside a Sephora dataset with 1472 rows and 11 columns. Methods encompass preprocessing, t-SNE plotting, feature engineering, PCA, feature selection, model selection, and neural network implementations. 
+
+Results showcase logistic regression's superiority over k-NN and random forest classifiers, attributed to its linear separability, robustness to overfitting, and efficiency with high-dimensional data. Moreover, the neural networks’ (linear and CNN) variability in performance underscores its unsuitability for small datasets, advocating for logistic regression as the preferred model with this dataset. These findings shed light on the efficacy of different models and emphasize the importance of tailored approaches in recommending cosmetic products.
